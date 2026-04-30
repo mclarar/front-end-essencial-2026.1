@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>Formulário</title>
+</head>
+
+<body>
+	<main>
+		<form>
+			<div class="field">
+				<label for="nome">Nome</label>
+				<input type="text" placeholder="Digite seu nome" required>
+			</div>
+
+			<div class="field">
+				<label for="email">Email</label>
+				<input type="email" placeholder="Digite seu email" required>
+			</div>
+
+			<div class="field">
+				<p>Gênero:</p>
+				<div class="options">
+					<label class="op-labels">
+						<input type="radio" name="genero" value="feminino">
+						Feminino
+					</label>
+					<label  class="op-labels">
+						<input type="radio" name="genero" value="masculino">
+						Masculino
+					</label>
+					<label class="op-labels">
+						<input type="radio" name="genero" value="outro">
+						Outro
+					</label>
+				</div>
+			</div>
+
+			<div class="field">
+				<p>Interesses</p>
+				<div class="options">
+					<label class="op-labels">
+						<input type="checkbox" value="html">
+						HTML
+					</label>
+					<label class="op-labels">
+						<input type="checkbox" value="css">
+						CSS
+					</label>
+					<label class="op-labels">
+						<input type="checkbox" value="javascript">
+						JavaScript
+					</label>
+					<label class="op-labels">
+						<input type="checkbox" value="java">
+						Java
+					</label>
+					<label class="op-labels">
+						<input type="checkbox" value="c#">
+						C#
+					</label>
+				</div>
+			</div>
+			<div class="field">
+				<label>Escreva um pouco sobre você</label>
+				<textarea placeholder="Digite aqui" rows="5">
+				</textarea>
+			</div>
+			<button type="submit">
+				Enviar
+			</button>
+		</form>
+	</main>
+</body>
+
+</html>

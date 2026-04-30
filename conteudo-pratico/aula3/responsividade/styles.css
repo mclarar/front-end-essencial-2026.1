@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #272020;
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    width: 15rem;
+    height: 30rem;
+    background-color: #63525a;
+    border-radius: 8px;
+}
+
+/* em telas de até 600px aplicar essas instruções */
+/* as regras valem para telas menores ou iguais a 600px */ 
+@media (max-width: 768px) {
+ body{
+    flex-direction: column;
+    padding: 1rem;
+ }
+ .item{
+    width: 80%;
+ }
+}
+
+/* em telas a partir de 1000px aplicar essas instruções  */
+/* as regras valem para telas maiores ou iguais a 1000px */
+/* mobile 1st */
+@media(min-width: 1000px){
+   .item{
+    background-color: cadetblue;
+   }
+}
