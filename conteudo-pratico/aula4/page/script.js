@@ -6,3 +6,6 @@ botao.addEventListener('click', ()=> {
     titulo.textContent = 'JavaScript!'
     titulo.style.color = 'yellow'
 });
+
+let nome = 'Maria';
+console.log(nome);

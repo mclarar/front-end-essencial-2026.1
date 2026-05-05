@@ -7,6 +7,10 @@ function somar(a,b){
 
 console.log(somar(5,5));
 
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+}
 //arrow function OU função anonima
 
 const subtrair = (b,c) => b - c
